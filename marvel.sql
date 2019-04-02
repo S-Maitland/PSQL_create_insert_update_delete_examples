@@ -89,6 +89,7 @@ UPDATE movies SET show_time = '17:20' WHERE title = 'Guardians of the Galaxy 2';
 
 -- 9.  The cinema would also like to make the Guardians movies a back to back feature. Find out the show time of "Guardians of the Galaxy" and set the show time of "Guardians of the Galaxy 2" to start two hours later.
 --SELECT show_time FROM movies WHERE title = 'Guardians of the Galaxy';
+--UPDATE movies SET show_time = '17:20' WHERE title = 'Guardians of the Galaxy 2';
 --SELECT * FROM movies WHERE title = 'Guardians of the Galaxy 2';
 
 -- ## Extension
