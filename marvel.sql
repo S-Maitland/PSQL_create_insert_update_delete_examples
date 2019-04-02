@@ -101,3 +101,5 @@ UPDATE movies SET show_time = '17:20' WHERE title = 'Guardians of the Galaxy 2';
 --***If i don't want to remove everything but instead remove just everything that meets a certain criteria then
 --*** i could use
 --DELETE FROM movies WHERE conditon;
+--DELETE FROM people WHERE id IN (1,2,3)
+-- DELETE FROM people WHERE name LIKE (%land%)
