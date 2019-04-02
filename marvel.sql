@@ -67,7 +67,7 @@ UPDATE movies SET show_time = '17:20' WHERE title = 'Guardians of the Galaxy 2';
 --SELECT * FROM movies;
 
 -- 2.  Return ONLY the name column from the 'people' table
---SELECT title FROM movies;
+--SELECT name FROM people;
 
 -- 3.  Oops! Someone at CodeClan spelled John's name wrong! Change it to reflect the proper spelling ('John Muir' should be 'John Moir').
 --UPDATE people SET name = 'John Moir' WHERE name = 'John Muir';
